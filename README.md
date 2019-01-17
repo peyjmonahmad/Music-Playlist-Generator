@@ -8,6 +8,6 @@ Once all the song lyrics undergoed pre-processing and lemmatization, they were t
 
 Then, I performed Nearest Neighbors to calculate the shortest cosine distances between every song vector and considered the closest songs as playlists.  This technique was also performed on audio features, which was much simpler to numerical nature of the data.  Lastly, I combined both lyrical and audio arrays to construct a combined playlist.  Ultimately, if you type in an artist and song into my generator, it will give you three unique playlists to listen too!
 
-To try this out on your own, you can check out my Flask web application that encapsulates all of this work into a responsive web page.  This public page should be up and running shortly.
+You can check out my Flask web application that encapsulates all of this work into a responsive web page.  This public page is not up and running at the moment.  To see an example of how this web app works, you can take a look at the short video in the playist_flask.mov file.
 
 Note: Only songs that were in an artist's last three albums were retrieved.  Also, songs that were not available in the python PyLyrics library were excluded from the project, but thousands of well known songs per genre are present in the dataset.
